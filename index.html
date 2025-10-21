@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readomly>
+        <div id="keys">
+            <button onclick="appendToDisplay('+')" class="op-btn">+</button>
+            <button onclick="appendToDisplay('-')"class="op-btn">-</button>
+            <button onclick="appendToDisplay('*')"class="op-btn">*</button>
+            <button onclick="appendToDisplay('%')"class="op-btn">%</button>
+            <button onclick="calculate()"class="op-btn">=</button>
+            <button onclick="appendToDisplay('1')" class="ty">1</button>
+            <button onclick="appendToDisplay('2')"class="ty">2</button>
+            <button onclick="appendToDisplay('3')"class="ty">3</button>
+            <button onclick="appendToDisplay('4')"class="ty">4</button>
+            <button onclick="appendToDisplay('5')"class="ty">5</button>
+            <button onclick="appendToDisplay('6')"class="ty">6</button>
+            <button onclick="appendToDisplay('7')"class="ty">7</button>
+            <button onclick="appendToDisplay('8')"class="ty">8</button>
+            <button onclick="appendToDisplay('9')"class="ty">9</button>
+            <button onclick="appendToDisplay('0')"class="ty">0</button>
+            <button onclick="cleardisplay()" class="u">C</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
